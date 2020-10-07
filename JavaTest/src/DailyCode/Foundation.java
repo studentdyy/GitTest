@@ -1,3 +1,5 @@
+package DailyCode;
+
 import java.util.Scanner;
 
 public class Foundation {
