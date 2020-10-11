@@ -1,4 +1,4 @@
-package DailyCode;
+package DailyCode.Base;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Foundation {
         * 浮点数类型：float(4，f),double（8）
         * 字符类型：char（2）
         * 布尔类型：boolean
-        * 引用类型：string
+        * 引用类型：所有class和interface
         * */
 //      练习
         boolean bo = 5 < 3;

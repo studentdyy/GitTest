@@ -1,4 +1,4 @@
-package DailyCode;
+package DailyCode.Base;
 
 public class HelloWord {
     public static void main(String[] args){

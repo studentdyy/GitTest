@@ -1,4 +1,4 @@
-package DailyCode;
+package DailyCode.Base;
 
 import java.util.Scanner;
 
