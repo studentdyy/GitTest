@@ -31,7 +31,7 @@ public class AddTwoNumbers {
 class ListNode {
       int val;
       ListNode next;
-      ListNode(int x) { val = x; }
+      public ListNode(int x) { val = x; }
       static String print(ListNode l){
           StringBuilder sb = new StringBuilder();
           while(l != null){
@@ -40,4 +40,16 @@ class ListNode {
           }
           return sb.toString();
       }
+
+    @Override
+    public String toString() {
+          StringBuilder sb = new StringBuilder();
+          ListNode flag = this;
+          while(flag != null){
+              sb.append(flag.val + " ");
+              flag = flag.next;
+          }
+        return sb.toString();
+    }
+
 }
